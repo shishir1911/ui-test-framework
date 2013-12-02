@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testdata>
+    <SeleniumTest>
+        <email>inmobiqa@gmail.com</email>
+        <password>thisistest</password>
+    </SeleniumTest>
+    <WebDriverTest>
+        <email>inmobiqa@gmail.com</email>
+        <password>thisistest</password>
+    </WebDriverTest>
+</testdata>

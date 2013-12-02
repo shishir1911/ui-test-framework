@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - WebDriverTests</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>WebDriverTests</h1>
+<p>
+  Test duration: 77.316s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.inmobi.qa.firefly.tests.DataBindingCSVTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyWebDriver
+      </td>
+  <td class="duration">
+    0.309s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"inmobiqa@gmail.com", "thisistest"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;Email&quot;}<br/>
+Command duration or timeout: 309 milliseconds<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;<br/>
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9&apos;, java.version: &apos;1.6.0_65&apos;<br/>
+Session ID: 664c97f3-1ce9-9147-8468-fd76151f70a1<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:513)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:380)<br />
+              org.openqa.selenium.By$ByName.findElement(By.java:292)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)<br />
+              com.inmobi.qa.firefly.pages.LoginPage.login(LoginPage.java:20)<br />
+              com.inmobi.qa.firefly.tests.DataBindingCSVTest.verifyWebDriver(DataBindingCSVTest.java:28)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)<br />
+              java.lang.reflect.Method.invoke(Method.java:597)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)<br />
+              java.lang.Thread.run(Thread.java:695)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;Email&quot;}<br/>
+Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;<br/>
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9&apos;, java.version: &apos;1.6.0_65&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-1">
+                      &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous3150045109266281778webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8880)<br />
+                      &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous3150045109266281778webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8889)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous3150045109266281778webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10817)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous3150045109266281778webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10822)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous3150045109266281778webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10764)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.inmobi.qa.firefly.tests.WebDriverTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyWebDriver
+      </td>
+  <td class="duration">
+    0.092s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"inmobiqa@gmail.com", "thisistest"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;Email&quot;}<br/>
+Command duration or timeout: 90 milliseconds<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;<br/>
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9&apos;, java.version: &apos;1.6.0_65&apos;<br/>
+Session ID: 650e3260-e253-064b-bedc-82bbbe070ff9<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:513)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:380)<br />
+              org.openqa.selenium.By$ByName.findElement(By.java:292)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)<br />
+              com.inmobi.qa.firefly.pages.LoginPage.login(LoginPage.java:20)<br />
+              com.inmobi.qa.firefly.tests.WebDriverTest.verifyWebDriver(WebDriverTest.java:33)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)<br />
+              java.lang.reflect.Method.invoke(Method.java:597)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)<br />
+              java.lang.Thread.run(Thread.java:695)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse">org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;Email&quot;}<br/>
+Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;<br/>
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9&apos;, java.version: &apos;1.6.0_65&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-3">
+                      &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous7828252729489641803webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8880)<br />
+                      &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous7828252729489641803webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8889)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous7828252729489641803webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10817)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous7828252729489641803webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10822)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous7828252729489641803webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10764)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyWebDriver
+      </td>
+  <td class="duration">
+    0.619s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"inmobiqa@gmail.com", "thisistest"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;Email&quot;}<br/>
+Command duration or timeout: 437 milliseconds<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;<br/>
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9&apos;, java.version: &apos;1.6.0_65&apos;<br/>
+Session ID: 40244b4c-efa8-5944-9079-bb9955601ec9<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:513)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:380)<br />
+              org.openqa.selenium.By$ByName.findElement(By.java:292)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)<br />
+              com.inmobi.qa.firefly.pages.LoginPage.login(LoginPage.java:20)<br />
+              com.inmobi.qa.firefly.tests.WebDriverTest.verifyWebDriver(WebDriverTest.java:33)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)<br />
+              java.lang.reflect.Method.invoke(Method.java:597)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)<br />
+              java.lang.Thread.run(Thread.java:695)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse">org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;Email&quot;}<br/>
+Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;<br/>
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9&apos;, java.version: &apos;1.6.0_65&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-5">
+                      &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous484794134041489777webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8880)<br />
+                      &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous484794134041489777webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8889)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous484794134041489777webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10817)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous484794134041489777webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10822)<br />
+                      &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous484794134041489777webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10764)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>

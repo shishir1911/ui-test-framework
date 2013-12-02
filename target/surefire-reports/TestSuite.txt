@@ -1,0 +1,141 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 98.271 sec <<< FAILURE!
+verifySelenium(com.inmobi.qa.firefly.tests.SeleniumTest)  Time elapsed: 7.189 sec  <<< FAILURE!
+com.thoughtworks.selenium.SeleniumException: Element name:Email not found
+	at org.openqa.selenium.internal.seleniumemulation.ElementFinder.findElement(ElementFinder.java:92)
+	at org.openqa.selenium.internal.seleniumemulation.Type.handleSeleneseCommand(Type.java:55)
+	at org.openqa.selenium.internal.seleniumemulation.Type.handleSeleneseCommand(Type.java:27)
+	at org.openqa.selenium.internal.seleniumemulation.SeleneseCommand.apply(SeleneseCommand.java:38)
+	at org.openqa.selenium.internal.seleniumemulation.Timer.run(Timer.java:40)
+	at org.openqa.selenium.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:140)
+	at org.openqa.selenium.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:70)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
+	at com.inmobi.qa.firefly.tests.SeleniumTest.verifySelenium(SeleniumTest.java:29)
+Caused by: org.openqa.selenium.WebDriverException: Element name:Email not found
+Command duration or timeout: 1.59 seconds
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9', java.version: '1.6.0_65'
+Session ID: 49008d19-6c97-b749-a0ff-7edc64a66533
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463)
+	at org.openqa.selenium.internal.seleniumemulation.ElementFinder.findElement(ElementFinder.java:90)
+	... 21 more
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element name:Email not found
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.ja(https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/&hl=en:64)
+	at <anonymous class>.ka(https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/&hl=en:64)
+	at <anonymous class>.Pd(https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/&hl=en:157)
+	at <anonymous class>.<anonymous method>(https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/&hl=en:158)
+	at <anonymous class>.<anonymous method>(https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/&hl=en:158)
+	at <anonymous class>.<anonymous method>(https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/&hl=en:159)
+	at <anonymous class>.anonymous(https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/&hl=en:159)
+	at <anonymous class>.handleEvaluateEvent(https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/&hl=en:60)
+
+verifyWebDriver(com.inmobi.qa.firefly.tests.WebDriverTest)  Time elapsed: 0.621 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Email"}
+Command duration or timeout: 437 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9', java.version: '1.6.0_65'
+Session ID: 40244b4c-efa8-5944-9079-bb9955601ec9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByName.findElement(By.java:292)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.inmobi.qa.firefly.pages.LoginPage.login(LoginPage.java:20)
+	at com.inmobi.qa.firefly.tests.WebDriverTest.verifyWebDriver(WebDriverTest.java:33)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"name","selector":"Email"}
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous484794134041489777webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8880)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous484794134041489777webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8889)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous484794134041489777webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10817)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous484794134041489777webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10822)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous484794134041489777webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10764)
+
+verifyWebDriver(com.inmobi.qa.firefly.tests.DataBindingCSVTest)  Time elapsed: 0.311 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Email"}
+Command duration or timeout: 309 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9', java.version: '1.6.0_65'
+Session ID: 664c97f3-1ce9-9147-8468-fd76151f70a1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByName.findElement(By.java:292)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.inmobi.qa.firefly.pages.LoginPage.login(LoginPage.java:20)
+	at com.inmobi.qa.firefly.tests.DataBindingCSVTest.verifyWebDriver(DataBindingCSVTest.java:28)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"name","selector":"Email"}
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous3150045109266281778webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8880)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous3150045109266281778webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8889)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous3150045109266281778webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10817)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous3150045109266281778webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10822)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous3150045109266281778webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10764)
+
+verifyWebDriver(com.inmobi.qa.firefly.tests.WebDriverTest)  Time elapsed: 0.093 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"Email"}
+Command duration or timeout: 90 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9', java.version: '1.6.0_65'
+Session ID: 650e3260-e253-064b-bedc-82bbbe070ff9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByName.findElement(By.java:292)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.inmobi.qa.firefly.pages.LoginPage.login(LoginPage.java:20)
+	at com.inmobi.qa.firefly.tests.WebDriverTest.verifyWebDriver(WebDriverTest.java:33)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"name","selector":"Email"}
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous7828252729489641803webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8880)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous7828252729489641803webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8889)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous7828252729489641803webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10817)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous7828252729489641803webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10822)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/4h/q55tj03106q8tn3y0rgyy3m4k2wmq_/T/anonymous7828252729489641803webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10764)
+

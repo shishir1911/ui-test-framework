@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ExampleTestSuite" parallel="methods" junit="false">
+
+	<listeners>
+		<listener class-name="net.sf.testng.databinding.TestAnnotationTransformer" />
+	</listeners>
+
+	<test name="SuiteSetUpTests">
+		<classes>
+			<class name="com.inmobi.qa.firefly.tests.SetUpTest" />
+		</classes>
+	</test>
+	<test name="SeleniumTests">
+		<classes>
+			<class name="com.inmobi.qa.firefly.tests.SeleniumTest" />
+		</classes>
+	</test>
+	<test name="WebDriverTests">
+		<classes>
+			<class name="com.inmobi.qa.firefly.tests.DataBindingCSVTest" />
+			<class name="com.inmobi.qa.firefly.tests.WebDriverTest" />
+		</classes>
+	</test>
+<!-- 	<test name="AppiumTests"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.inmobi.qa.firefly.tests.AppiumTest" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testData>
+	<dataSet>
+		<testInputData>
+			<email>inmobiqa@gmail.com</email>
+			<password>thisistest</password>
+		</testInputData>
+	</dataSet>
+	<dataSet>
+		<testInputData>
+			<email>inmobiqa@gmail.com</email>
+			<password>thisistest</password>
+		</testInputData>
+	</dataSet>
+</testData>
